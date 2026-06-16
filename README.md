@@ -2,7 +2,7 @@
 
 > Ventana de advertencia de seguridad al abrir Nautilus (explorador de archivos) como administrador en Linux.
 
-
+![Warning Window](Advertencias.png)
 
 ## 📋 Descripcion
 
