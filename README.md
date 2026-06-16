@@ -36,7 +36,7 @@ Nautilus (Archivos de GNOME)
 zenity
 python3-nautilus
 
-## 🗑️ Desinstalación
+# 🗑️ Desinstalación
 bash
 sudo ./uninstall.sh
 Luego cierra sesión y vuelve a iniciar.
@@ -59,10 +59,13 @@ Crea una rama (git checkout -b feature/nueva-funcion)
 Confirma tus cambios (git commit -am 'Añadir nueva funcion')
 Sube la rama (git push origin feature/nueva-funcion)
 Abre una Pull Request
+
 ##  📄 Licencia
 Licencia MIT — Libre para usar, modificar y distribuir.
+
 🙏 Créditos
 Autor: BogdanSaniuta
 Sistema: Zorin OS
-Inspiración: Función "Ejecutar como administrador" de Windows
+
+### Inspiración: Función "Ejecutar como administrador" de Windows
 ##  ⚠️ ADVERTENCIA: Usa esta herramienta con precaución. Los archivos eliminados no se pueden recuperar.
