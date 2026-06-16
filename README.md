@@ -13,7 +13,7 @@ sudo ./install.sh
 
 Requiere: Cerrar sesión y volver a iniciar (o reiniciar) después de instalar.
 
-> 📖 Cómo Usar
+### 📖 Cómo Usar
 Abre el Administrador de Archivos (Nautilus)
 Navega a cualquier carpeta con archivos protegidos
 Clic derecho en el archivo que quieres eliminar
@@ -22,7 +22,7 @@ Lee la advertencia y pulsa ELIMINAR o CANCELAR
 Introduce tu contraseña si te la solicitan
 ¡El archivo se elimina directamente — no se abre ninguna ventana nueva!
 
-## 🖥️ Compatibilidad
+### 🖥️ Compatibilidad
 Table
 Distribución	Estado
 Zorin OS	✅ Probado
