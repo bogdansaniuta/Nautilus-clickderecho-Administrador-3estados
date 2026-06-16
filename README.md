@@ -1,6 +1,6 @@
 # 🛡️ Nautilus Clic Derecho Administrador (3 estados)
 
-&gt; Elimina archivos como administrador directamente desde el menú contextual con un diálogo de advertencia de seguridad.
+&gt;  Elimina archivos como administrador directamente desde el menú contextual con un diálogo de advertencia de seguridad.
 
 ![Ventana de Advertencia](Advertencias.png)
 
