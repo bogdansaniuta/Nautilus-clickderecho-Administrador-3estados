@@ -1,0 +1,13 @@
+# Archivos temporales
+__pycache__/
+*.pyc
+*.pyo
+
+# Backups
+*.bak
+*.swp
+*~
+
+# Sistema
+.DS_Store
+Thumbs.db
