@@ -4,7 +4,7 @@
 
 ![Ventana de Advertencia](Advertencias.png)
 
-## 📦 Instalación Rápida
+### 📦 Instalación Rápida
 
 ```bash
 git clone https://github.com/bogdansaniuta/Nautilus-clickderecho-Administrador-3estados.git
