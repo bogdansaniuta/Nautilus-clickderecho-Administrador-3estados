@@ -1,10 +1,8 @@
 # 🛡️ Nautilus Clic Derecho Administrador (3 estados)
 
-&gt;  Elimina archivos como administrador directamente desde el menú contextual con un diálogo de advertencia de seguridad.
+>  Elimina archivos como administrador directamente desde el menú contextual con un diálogo de advertencia de seguridad.
 
 ![Ventana de Advertencia](Advertencias.png)
-
----
 
 ## 📦 Instalación Rápida
 
@@ -14,7 +12,8 @@ cd Nautilus-clickderecho-Administrador-3estados
 sudo ./install.sh
 
 Requiere: Cerrar sesión y volver a iniciar (o reiniciar) después de instalar.
-📖 Cómo Usar
+
+## 📖 Cómo Usar
 Abre el Administrador de Archivos (Nautilus)
 Navega a cualquier carpeta con archivos protegidos
 Clic derecho en el archivo que quieres eliminar
