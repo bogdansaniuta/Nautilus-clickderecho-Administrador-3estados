@@ -214,7 +214,6 @@ Nautilus-clickderecho-Administrador-3estados/
 ├── install.sh                   # Script de instalación
 ├── uninstall.sh                 # Script de desinstalación
 ├── nautilus-admin-delete.sh     # Script principal
-├── delete-as-admin.desktop      # Acción de Nautilus
 ├── Advertencias.png             # Captura de pantalla
 └── LICENSE                      # Licencia MIT
 ```
