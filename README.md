@@ -35,7 +35,7 @@ sudo ./install.sh
 1. Copia el script a `/usr/local/bin/`:
 ```bash
 sudo cp nautilus-admin-delete.sh /usr/local/bin/
-sudo chmod +x /usr/local/bin/nautilus-admin-delete.sh
+sudo chmod +x /usr/local/bin/nautilus-admin-delete-ES.sh
 ```
 
 2. Copia el archivo `.desktop` a la carpeta de acciones de Nautilus:
@@ -115,7 +115,7 @@ Luego:
 ### Desinstalación Manual
 
 ```bash
-sudo rm /usr/local/bin/nautilus-admin-delete.sh
+sudo rm /usr/local/bin/nautilus-admin-delete-ES.sh
 rm ~/.local/share/nautilus/scripts/delete-as-admin.desktop
 nautilus -q  # Reinicia Nautilus
 ```
