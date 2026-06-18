@@ -1,5 +1,5 @@
 #!/bin/bash
-# Nautilus Admin Warning - Desinstalador
+# Nautilus Admin Tools - Desinstalador
 
 set -e
 
@@ -9,11 +9,12 @@ if [ "$EUID" -ne 0 ]; then
     exit 1
 fi
 
-echo "🗑️  Desinstalando Nautilus Admin Warning..."
+echo "🗑️  Desinstalando Nautilus Admin Tools..."
 
+rm -f /usr/local/bin/nautilus-admin-open.sh
 rm -f /usr/local/bin/nautilus-admin-delete.sh
 rm -f /usr/local/bin/nautilus-admin-delete-ES.sh
-echo "   ✅ Script eliminado"
+echo "   ✅ Scripts eliminados"
 
 rm -f /usr/share/nautilus-python/extensions/nautilus-admin-custom.py
 echo "   ✅ Extension eliminada"
