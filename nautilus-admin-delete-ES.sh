@@ -1,4 +1,3 @@
-sudo tee /usr/local/bin/nautilus-admin-delete.sh > /dev/null << 'EOF'
 #!/bin/bash
 
 FILE="$1"
@@ -15,7 +14,6 @@ zenity --question \
 <span foreground="#FF6600" size="x-large" weight="bold">'"$FILENAME"'</span>
 
 <span foreground="#333333">Ubicacion:</span> <span foreground="#CC0000">'"$FILE"'</span>
-<span foreground="#333333" weight="bold">Tamaño:</span> <span foreground="#0066CC">'"$(du -sh "$FILE" 2>/dev/null | cut -f1) B"'</span>
 
 <span foreground="#333333">Esta accion</span> <span foreground="#CC0000" weight="bold" size="large">NO se puede deshacer</span><span foreground="#333333">.</span>
 
@@ -35,4 +33,3 @@ if [ $? -eq 0 ]; then
 else
     exit 0
 fi
-EOF
