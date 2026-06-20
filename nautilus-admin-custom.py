@@ -38,7 +38,13 @@ class AdminExtension(GObject.GObject, Nautilus.MenuProvider):
             break
 
     def delete_as_admin(self, menu, files):
+        # Recoger TODOS los paths de los archivos seleccionados
+        paths = []
         for file in files:
             path = file.get_location().get_path()
-            subprocess.Popen(['/usr/local/bin/nautilus-admin-delete.sh', path])
-            break
+            paths.append(path)
+
+        # Llamar al script con TODOS los archivos como argumentos
+        if paths:
+            cmd = ['/usr/local/bin/nautilus-admin-delete.sh'] + paths
+            subprocess.Popen(cmd)
