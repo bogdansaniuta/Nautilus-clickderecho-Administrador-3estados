@@ -11,6 +11,8 @@
 **Nautilus Clic Derecho Administrador (3-Way)** añade dos opciones al menú contextual de Nautilus:
 - **"Abrir como Administrador"** — Abre archivos/carpetas con permisos de root
 - **"Eliminar como Administrador"** — Elimina archivos del sistema permanentemente
+- - **"Eliminar como Administrador"** - Elimina Multiples archivos del sistema permanentemente seleccionados con CTRL + Click 
+- 
 
 Al seleccionar, muestra un diálogo de advertencia visual (colores, iconos, texto en negrita) antes de ejecutar la acción.
 
